@@ -1,0 +1,38 @@
+{{!
+Це код container файлу для index сторінки,
+в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
+}}
+
+<main>
+  <nav class='nav--bar'>
+    <div class='nav--btns'>
+
+      <button class='nav--icon' id='back'>
+        <img src='/svg/arrow-back.svg' alt='back' />
+      </button>
+      <button class='nav--icon' id='forward'>
+        <img src='/svg/arrow-forward.svg' alt='forward' />
+      </button>
+      <button class='nav--icon' id='refresh'>
+        <img src='/svg/refresh.svg' alt='refresh' />
+      </button>
+      <button class='nav--icon' id='home'>
+        <img src='/svg/home.svg' alt='home' />
+      </button>
+    </div>
+
+    <div class='nav--search'>
+      <input type='text' placeholder='Search' id='input' />
+    </div>
+
+    <button class='nav--icon' id='go'>
+      <img src='/svg/start.svg' alt='go' />
+    </button>
+
+  </nav>
+</main>
+
+{{!
+    Цей код містить лише те, що буде виводитись в <body>
+    Адже наш layout/default.hbs має вже структуру HTML
+}}
